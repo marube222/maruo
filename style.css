@@ -234,3 +234,61 @@ ul li a:hover {
 .contact-links a img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul.nav-links {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .info {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .info h1 {
+    font-size: 35px;
+  }
+
+  .image {
+    position: static;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .image img {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-box {
+    width: 90%;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
