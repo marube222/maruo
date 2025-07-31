@@ -87,9 +87,9 @@ ul li a:hover {
 
 .image img {
     position: absolute;
-    height: 150%;
+    height: 145%;
     left: 50%;
-    top: -70%;
+    top: -60%;
     transform: translate(-55%);
 }
 
@@ -305,33 +305,3 @@ ul li a:hover {
   color: aqua;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    z-index: 1000;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #222;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    z-index: 999;
-  }
-
-  #menu-toggle:checked + .hamburger + .nav-links {
-    display: flex;
-  }
-
-  .nav-links li {
-    text-align: center;
-    padding: 15px 0;
-  }
-}
