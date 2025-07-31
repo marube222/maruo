@@ -8,16 +8,22 @@
 </head>
 <body>
     <div class="main">
-        <div class="navbar"> 
-            <img src="logo.png" class="logo" width="300">
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#projects">PROJECTS</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
-            </ul>
-        </div>
+    <div class="navbar">
+  <img src="logo.png" class="logo">
+
+  <!-- Hidden checkbox to toggle menu -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+  <ul class="nav-links">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#education">EDUCATION</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#contacts">CONTACTS</a></li>
+  </ul>
+</div>
+
 
         <div class="info">
             <h3>Hello, My name is <span>Zac</span></h3>
@@ -34,51 +40,69 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>My name is Zack Marube. I am an enthusiastic young web developer with my eyes on the ball when it comes to design and an expanding pool of skill in both front-end and back-end languages.<br>
-        I am only 19 years old, yet I have already started the process of developing both creative and functional websites that embody the needs of the real world.<br>
-        I never stop learning, experimenting, and improving my skills, and every project helps me reach the status of a top developer.</p>
+        <p>My name is Zachariah Marube. <br>
+           I'm a passionate developer who enjoys building creative and user-friendly websites. 
+           I thrive <br> on learning new technologies and turning ideas into reality through clean, 
+           efficient code.
+       I'm also a <br> photographer  and videographer which I do as an hobby as an additional skill to this field 
+       that I am in at the moment.</p>
     </section>
 
     <hr>
 
     <section id="education">
         <h2>Education</h2>
-        <p>I am studying Computer Technology at Jomo Kenyatta University of Agriculture and Technology (JKUAT).<br>
-        I am a second year student and my field of interest is mostly toward software development, web technologies, and systems design. Academic experience has provided me with a strong base regarding programming and problem-solving, which I develop and enlarge on my own and through practical learning.</p>
+        <p>I am studying Computer Technology at Jomo Kenyatta University of Agriculture and
+           Technology (JKUAT).<br>
+         My field of interest is mostly toward software development,
+         web technologies, and systems design. Academic experience has <br> provided me with a strong base 
+         regarding programming and problem-solving, which I develop and enlarge on my own and through 
+         practical learning.</p>
     </section>
 
     <hr>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Info about your work or projects.</p>
-    </section>
+    <!-- Projects Section -->
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+    <div class="project-box">
+      <h3>Project One</h3>
+      <p>A simple portfolio website built with HTML and CSS.</p>
+      <a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Project Two</h3>
+      <p>A student record system using PHP and MySQL.</p>
+      <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-box">
+      <h3>Project Three</h3>
+      <p>A weather app that shows real-time data using an API.</p>
+      <a href="https://github.com/yourusername/project-three" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
 
     <hr>
 
-    <section id="contacts">
-        <h2>Contact Me</h2>
+   <!-- Contact Section -->
+<section id="contacts">
+  <h2>Contact Me</h2>
 
-        <form>
-            <label>Name:</label><br>
-            <input type="text" placeholder="Your Name"><br><br>
-
-            <label>Email:</label><br>
-            <input type="email" placeholder="Your Email"><br><br>
-
-            <label>Message:</label><br>
-            <textarea placeholder="Write your message..."></textarea><br><br>
-
-            <button type="button">Send</button>
-        </form>
-
-        <div class="social-links">
-            <h3>Connect with me:</h3>
-            <a href="https://twitter.com/yourusername" target="_blank">Twitter</a> |
-            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        </div>
-    </section>
+  <div class="contact-links">
+    <p>
+      📧 <a href="mailto:marubezack@gmail.com">marubezack@gmail.com</a><br>
+      💬 <a href="https://wa.me/2547XXXXXXXX" target="_blank">WhatsApp Me</a><br>
+      🐙 <a href="https://github.com/yourusername" target="_blank">GitHub</a><br>
+      💼 <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</section>
 
     <hr>
 </body>
