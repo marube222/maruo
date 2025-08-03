@@ -23,7 +23,7 @@ Hi, I'm Zack, a passionate and committed student currently pursuing **Computer T
 
 ## 🔗 Live Demo
 
-👉 [View my portfolio](#) *(Add your live site link when hosted)*
+👉 View my portfolio [https://marube222.github.io/maruo/]
 
 ## 📬 Contact Me
 
